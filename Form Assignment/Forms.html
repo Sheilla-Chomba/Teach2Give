@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form types</title>
+</head>
+<body>
+    <h1>Enquiry about program</h1><hr>
+    <form action="">
+        <label for="fullname">Full names: </label>
+        <input type="text"  id="fullname" name="fullname" placeholder="Enter your full names" maxlength="20" required>
+        <br><br>
+        <label for="password">Preffered Password: </label>
+        <input type="password"  id="password" name="password" placeholder="************" maxlength="20" required>
+        <br><br>
+        
+        <label for="gender">What is your gender: </label> <br>
+        <input type="radio"  id="gender" name="gender" value="male" checked>Male <br>
+        <input type="radio"  id="gender" name="gender" value="female" >Female <br>
+        <input type="radio"  id="gender" name="gender" value="other" >Other 
+        <br><br>
+        <label for="programming">What programming language are you conversant with: </label> <br>
+        <input type="checkbox"  id="programming" name="programming" value="python">Python <br>
+        <input type="checkbox"  id="programming" name="programming" value="java">Java <br>
+        <input type="checkbox"  id="programming" name="programming" value="c++">C++ <br>
+        <input type="checkbox"  id="programming" name="programming" value="other">Other <br><br>
+        <label for="feedback">Feedback: </label><br>
+        <textarea name="feedback" id="feedback" placeholder="Kindly put in your feedback" cols="30" rows="10"></textarea>
+        <br>
+        <button type="reset">Reset</button><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

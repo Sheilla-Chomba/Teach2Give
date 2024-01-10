@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            position: relative;
+            background-color: hsl(212, 45%, 89%);
+            text-align: center;
+            height: 100%;
+            justify-content: center;
+        }
+
+        .qrcode {
+            position: absolute;
+            margin-top: 30vh; 
+            left: 45%;
+            padding: 10px;
+            text-align: center;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 10px;
+            width: 200px;
+            height: 350px;
+            
+        }
+
+        .qrimage {
+            border-radius: 10px;
+        }
+
+        .qsubject {
+            font-family: "Outfit", sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .qrtext {
+            font-family: "Outfit", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+   
+        <div class="qrcode">
+            <img class="qrimage" src="image-qr-code.png" alt="QR Code" width="200px" height="200px">
+            <p class="qsubject">Improve your front-end<br> skills by building projects</p>
+            <p class="qrtext">Scan the QR code to visit Frontend<br> Mentor and take your coding skills to<br> the next
+                level</p>
+        </div>
+    
+</body>
+
+</html>
