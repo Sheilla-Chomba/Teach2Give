@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(230, 17%, 14%)
+}
+
+.main {
+    width:80vw;
+    height:80vh;
+    background-color: hsl(230, 17%, 14%);   
+}
+
+.navbar {
+    width:80vw;
+    height: 10vh;
+    background-color: hsl(230, 17%, 14%);
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.socials{
+    background-color: hsl(230, 17%, 14%);
+    width:80vw;
+    height: 20vh;
+    display: flex;
+    gap:10px;
+}
+.socials > div{
+    border-radius: 10px;
+    color: white;
+}
+.socialMedia{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.followers{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: hsl(228, 34%, 66%);
+    font-size: 15px;
+}
+.darkMode{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: hsl(228, 34%, 66%);
+    font-size: 15px;
+}
+.facebook{
+    width:20vw;
+    height: 20vh;
+    background-color: hsl(228, 28%, 20%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 4px solid hsl(208, 92%, 53%);
+}
+.follperson{
+    color: hsl(228, 34%, 66%);
+    font-size: 12px;
+}
+.follNumber{
+    font-size: 40px;
+}
+.follToday{
+    font-size: 12px;
+    color: hsl(163, 72%, 41%);
+}
+.follToday1{
+    font-size: 12px;
+    color: hsl(356, 69%, 56%);
+}
+.follName{
+    color: hsl(228, 34%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+}
+.twitter{
+    width:20vw;
+    height: 20vh;
+    background-color: hsl(228, 28%, 20%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 4px solid hsl(203, 89%, 53%);
+}
+.instagram{
+    width:20vw;
+    height: 20vh;
+    background-color: hsl(228, 28%, 20%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%)) 1;
+    border-radius: 10px;
+}
+.youtube{
+     width:20vw;
+    height: 20vh;
+    background-color: hsl(228, 28%, 20%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 4px solid hsl(348, 97%, 39%);
+}
+.overview{
+    width:80vw;
+    height: 10vh;
+    background-color: hsl(230, 17%, 14%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+}
+.likes{
+    display: flex;
+    gap: 10px;
+    width: 80vw;
+    height:40vh;
+    flex-direction: column;
+}
+
+.faceinsta{
+    background-color: hsl(230, 17%, 14%);
+    height:20vh;
+    display:flex;
+    gap: 10px;
+}
+.faceinsta > div{
+    border-radius: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: hsl(228, 28%, 20%)
+}
+
+.faceviews{
+    width:20vw;
+    height: 20vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.viewcon{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+.facelikes{
+    width:20vw;
+    height: 20vh;
+    background-color: gray 
+}
+.instalikes{
+    width:20vw;
+    height: 20vh;
+    background-color: gray 
+}
+.instaviews{
+    width:20vw;
+    height: 20vh;
+    background-color: gray 
+}
+.pageviews{
+    color: hsl(228, 34%, 66%);
+    font-size: 12px;
+}
+.viewsnum{
+    font-size: 30px;
+}
+.viewsnum2{
+    font-size: 12px;
+    color:hsl(163, 72%, 41%);
+}
+.viewsnum2red{
+    font-size: 12px;
+    color: hsl(356, 69%, 56%);
+}
