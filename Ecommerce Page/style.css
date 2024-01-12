@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 80vw;
+    height: 90vh;
+    font-family: "Kumbh Sans", sans-serif;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+    /* justify-content: space-evenly; */
+    background-color: hsl(0, 0%, 100%);
+    width: 80vw;
+    height: 10vh;
+    align-items: center;
+}
+.pages{
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+}
+.icon{
+    grid-column: 2;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon  img{
+    width: 50px;
+    height: 50px;
+}
+.sneakerstitle{
+    font-weight: 700;
+    font-size: 35px;
+    grid-column: 1;
+}
+.collection{
+    grid-column: 2;
+    color: hsl(219, 9%, 45%);
+}
+.men{
+    grid-column: 3;
+    color: hsl(219, 9%, 45%);
+}
+.women{
+    grid-column: 4;
+    color: hsl(219, 9%, 45%);
+}
+
+.about{
+    grid-column: 5;
+    color: hsl(219, 9%, 45%);
+}
+.contact{
+    grid-column: 6;
+    color: hsl(219, 9%, 45%);
+}
+
+.space{
+    background-color:  hsl(0, 0%, 100%);
+    width: 80vw;
+    height: 10vh;
+}
+.shoemain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    height: 50vh;
+}
+.grid-item1{
+    grid-column: 1;
+    background-color: hsl(0, 0%, 100%);
+}
+.img1{
+    border-radius: 10px;
+    width: 35vw;
+    height: 45vh;
+}
+.grid-item2{
+    grid-column: 2;
+    background-color: hsl(0, 0%, 100%);
+}
+.notes{
+    width: 35vw;
+    height: 45vh;
+}
+.shoestype{
+    display: grid;
+    grid-template-columns: repeat(9,fr);
+    width: 80vw;
+    height: 20vh; 
+    background-color:hsl(0, 0%, 100%);
+}
+.grid-item3{
+    grid-column: 1;
+    
+}
+.grid-item4{
+    grid-column:2;
+    
+}
+.grid-item5{
+    grid-column: 3;
+    
+}
+.grid-item6{
+    grid-column: 4;
+    
+}
+.grid-item7{
+    grid-column: 5;
+    
+}
+.grid-item8{
+    grid-column: 6;
+    
+}
+.grid-item9{
+    grid-column: 7;
+    
+}
+.grid-item10{
+    grid-column: 8;
+    
+}
+.grid-item11{
+    grid-column: 9;
+    
+}
+.additem{
+    width: 150px;
+    height: 40px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 10px;
+    border: none;
+}
+.addcart{
+    width: 150px;
+    height: 40px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    
+
+}
+.thumbnails{
+    width:80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.sneaker-head{
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+.sneak-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sneak-notes{
+    color: hsl(219, 9%, 45%);
+}
+.price{
+    font-weight: 700;
+    font-size: 35px; 
+}
+.preprice{
+    font-weight: 700;
+    color: hsl(220, 14%, 75%);
+}
+.discount{
+    width: 50px;
+    height: 20px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    border: none;
+    color: hsl(26, 100%, 55%);
+    font-size: 16px;
+    font-weight: 750;
+    font-family: "Kumbh Sans", sans-serif;
+    
+}
+
